@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.165" />
+        <entry key="../../../Library/Android/sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.1408514492753623" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.178" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.178" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1408514492753623" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.1408514492753623" />
+        <entry key="app/src/main/res/layout/fragment_bezier.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/fragment_blur.xml" value="0.2656454556230186" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.1408514492753623" />
+        <entry key="app/src/main/res/layout/fragment_frame_buffer.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1408514492753623" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.1408514492753623" />
+        <entry key="app/src/main/res/layout/fragment_split.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/fragment_video.xml" value="0.15208333333333332" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.178" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

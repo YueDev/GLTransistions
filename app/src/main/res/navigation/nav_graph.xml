@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.gltransistions.HomeFragment"
+        android:label="@string/home_fragment_label"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_HomeFragment_to_blurFragment"
+            app:destination="@id/blurFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_HomeFragment_to_bezierFragment"
+            app:destination="@id/bezierFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_HomeFragment_to_splitFragment"
+            app:destination="@id/splitFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_HomeFragment_to_frameBufferFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:destination="@id/frameBufferFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blurFragment"
+        android:name="com.example.gltransistions.blur.BlurFragment"
+        android:label="@string/blur_fragment_label"
+        tools:layout="@layout/fragment_blur" />
+    <fragment
+        android:id="@+id/bezierFragment"
+        android:name="com.example.gltransistions.bezier.BezierFragment"
+        android:label="@string/bezier_fragment_label"
+        tools:layout="@layout/fragment_bezier" />
+    <fragment
+        android:id="@+id/splitFragment"
+        android:name="com.example.gltransistions.split.SplitFragment"
+        android:label="@string/split_fragment_label"
+        tools:layout="@layout/fragment_split" />
+    <fragment
+        android:id="@+id/frameBufferFragment"
+        android:name="com.example.gltransistions.frame_buffer.FrameBufferFragment"
+        android:label="@string/frame_buffer_fragment_label"
+        tools:layout="@layout/fragment_frame_buffer" />
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.gltransistions.video.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+</navigation>
