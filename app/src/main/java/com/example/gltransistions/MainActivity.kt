@@ -23,9 +23,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
 
-        Log.d("YUEDEVTAG", "RAM: ${JavaUtil.getTotalMemory()}")
-        Log.d("YUEDEVTAG", "CPU: ${JavaUtil.getCpuName()}")
-
 
 
         binding = ActivityMainBinding.inflate(layoutInflater)
